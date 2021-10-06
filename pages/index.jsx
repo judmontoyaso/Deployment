@@ -71,7 +71,7 @@ export default function Home() {
       obtenerEmpresaEstadoEstado: "Sin gestionar",
     },
   });
-  if (loading) return "wait";
+  if (loading) return "Obteniendo empresas de la base de datos, por favor espere...";
 
   //Tamaño del arreglo para manejar la paginación
   const tamaño = data.obtenerEmpresaEstado.length;
