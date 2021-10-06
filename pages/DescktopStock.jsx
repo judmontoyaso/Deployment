@@ -17,17 +17,7 @@ const DescktopStock = () => {
   //defimir el limite para la paginacion
 
   //Use effect para desactivar o activar botones de paginacion
-  useEffect(() => {
-    if (count == 0) {
-      setDisable(true);
-      setColorLeft("text-gray-500");
-    }
-
-    if (count == limit) {
-      setDisableNext(true);
-      setColor("text-gray-500");
-    }
-  });
+  
 
   return (
     <div>

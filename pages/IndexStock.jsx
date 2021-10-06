@@ -10,7 +10,7 @@ export default function IndexStock() {
         <div>
           <section>
             <ul className="ulista">
-              <Link href="/reponsive">
+              <Link href="/GestionEmpresas">
                 <a>
                   <Cards
                     nombreEmpresa="Solicitud de creacion de empresas"
