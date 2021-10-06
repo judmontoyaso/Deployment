@@ -1,0 +1,45 @@
+.formContenedorMobile {
+  background-color: white;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 4px 6px -3px rgb(61, 60, 60);
+  -moz-box-shadow: 0 4px 6px -3px rgb(61, 60, 60);
+  box-shadow: 0 4px 6px -3px rgb(61, 60, 60);
+}
+
+.contenedorDatosMobile {
+ 
+  background-color: white;
+}
+
+.contenedorMobile {
+
+  background-color: #e5e7eb;
+  margin-bottom: 50px;
+}
+
+.contenedorLogoEmpresaMobile {
+  height: 250px;
+  width: 250px;
+  background-color: #e5e7eb;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+.botonesGestionMobile {
+  width: 220px;
+  height: 50px;
+  border-radius: 16px;
+  position: relative;
+  top: 500px;
+
+  background-color: white;
+  -webkit-box-shadow: 0 4px 6px -3px rgb(61, 60, 60);
+  -moz-box-shadow: 0 4px 6px -3px rgb(61, 60, 60);
+  box-shadow: 0 4px 6px -3px rgb(61, 60, 60);
+}
+
+.descargas {
+  position: relative;
+  top: -100px;
+}

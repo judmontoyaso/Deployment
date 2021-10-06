@@ -1,0 +1,146 @@
+.main {
+  background-color: #e5e7eb;
+  height: max-content;
+}
+
+.colorNav {
+  background-color: #2f3337;
+}
+
+.breedCard {
+  background-color: white;
+  border-radius: 20px;
+  height: 300px;
+  margin-left: 10px;
+  margin-right: 10px;
+  -webkit-box-shadow: 0 4px 6px -3px rgb(61, 60, 60);
+  -moz-box-shadow: 0 4px 6px -3px rgb(61, 60, 60);
+  box-shadow: 0 4px 6px -3px rgb(61, 60, 60);
+}
+
+.contenedorImagen {
+  margin-bottom: 10px;
+}
+
+.contenedorImagen:hover {
+  cursor: pointer;
+}
+
+.tituloCard {
+  color: #424242;
+}
+
+.barra {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding-top: 20px;
+  padding-left: 30px;
+
+  border-top: 1px #cbcedd solid;
+}
+.navbar > li {
+  display: flex;
+  align-items: center;
+}
+.clock {
+  size: 5x;
+}
+
+.ulista {
+  margin-top: 150px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+@media screen and (max-width: 1080px) {
+  .ulista {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
+.cuadro {
+  position: relative;
+  top: -50px;
+  left: 80px;
+  background: #26b4ff;
+}
+
+.formContenedor {
+  height: 800px;
+  width: 1200px;
+  background-color: white;
+  margin-bottom: 50px;
+  background-color: white;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 4px 6px -3px rgb(61, 60, 60);
+  -moz-box-shadow: 0 4px 6px -3px rgb(61, 60, 60);
+  box-shadow: 0 4px 6px -3px rgb(61, 60, 60);
+}
+
+.contenedorLogoEmpresa {
+  height: 250px;
+  width: 250px;
+  background-color: #e5e7eb;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  position: relative;
+  top: -80px;
+}
+
+.contenedor {
+  display: flex;
+  background-color: #e5e7eb;
+  margin-bottom: 50px;
+}
+.contenedorDatos {
+  height: 600px;
+  width: 800px;
+  background-color: white;
+}
+
+.botonesControl {
+  margin-bottom: 50px;
+}
+
+.clip {
+  background-color: white;
+  -webkit-box-shadow: 0 4px 6px -3px rgb(61, 60, 60);
+  -moz-box-shadow: 0 4px 6px -3px rgb(61, 60, 60);
+  box-shadow: 0 4px 6px -3px rgb(61, 60, 60);
+}
+
+.clipp {
+  color: #26b4ff;
+}
+
+.botonesGestion {
+  width: 220px;
+  height: 50px;
+  border-radius: 16px;
+
+  background-color: white;
+  -webkit-box-shadow: 0 4px 6px -3px rgb(61, 60, 60);
+  -moz-box-shadow: 0 4px 6px -3px rgb(61, 60, 60);
+  box-shadow: 0 4px 6px -3px rgb(61, 60, 60);
+}
+
+.gestionar {
+  position: relative;
+  top: 80px;
+  left: 650px;
+}
+
+.check {
+  color: #14cf10;
+}
+
+.clipAdobe {
+  position: relative;
+  top: -110px;
+  right: -420px;
+  background-color: white;
+  -webkit-box-shadow: 0 4px 6px -3px rgb(61, 60, 60);
+  -moz-box-shadow: 0 4px 6px -3px rgb(61, 60, 60);
+  box-shadow: 0 4px 6px -3px rgb(61, 60, 60);
+}
