@@ -211,6 +211,7 @@ const DesktopComponent = () => {
                             value={props.values.nombre}
                             onChange={props.handleChange}
                             onBlur={props.handleBlur}
+                            disabled
                           ></input>
                         </section>
                         <section>
@@ -223,6 +224,7 @@ const DesktopComponent = () => {
                             value={props.values.razonSocial}
                             onChange={props.handleChange}
                             onBlur={props.handleBlur}
+                            disabled
                           ></input>
                         </section>
                         <section>
@@ -235,6 +237,7 @@ const DesktopComponent = () => {
                             value={props.values.tipoID}
                             onChange={props.handleChange}
                             onBlur={props.handleBlur}
+                            disabled
                           ></input>
                         </section>
                         <section>
@@ -248,6 +251,7 @@ const DesktopComponent = () => {
                             value={props.values.identificacion}
                             onChange={props.handleChange}
                             onBlur={props.handleBlur}
+                            disabled
                           ></input>
                         </section>
 
@@ -262,6 +266,7 @@ const DesktopComponent = () => {
                             value={props.values.numeroEmpleados}
                             onChange={props.handleChange}
                             onBlur={props.handleBlur}
+                            disabled
                           ></input>
                         </section>
                         <section>
