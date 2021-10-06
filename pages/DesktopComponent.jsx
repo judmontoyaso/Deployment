@@ -91,7 +91,7 @@ const DesktopComponent = () => {
       obtenerEmpresaEstadoEstado: "Sin gestionar",
     },
   });
-  if (loading) return "Consultado en la base de datos...";
+  if (loading) return "Obteniendo empresas de la base de datos, por favor espere...";
 
   console.log(data.obtenerEmpresaEstado[0]);
 
